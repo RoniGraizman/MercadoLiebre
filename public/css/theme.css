@@ -1,0 +1,142 @@
+/* General */
+h1 {
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+  }
+
+  /* Body */
+
+ /* header */
+  .nav-bar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap  
+  }
+   .search-bar {
+    width: 50%;
+    border: solid 1px lightgrey;
+    border-radius: 4px;
+    padding: 5px;
+  }
+   .nav-bar-top img {
+    width: 90%
+   }
+  .nav-bar-bottom {
+     display: none
+   }
+   .promocion {
+     width: 100%;
+     margin: 10px 5px;
+   }
+
+  .nav-section-a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  }
+  .nav-section li {
+  list-style: none;
+  }
+  .nav-section {
+    padding: 0;
+  }
+
+.burger-menu {
+  text-align: center;
+}
+
+.burger-menu i {
+  padding: 8px;
+  background-color: #1259c3;
+  color: #ebebeb;
+  border-radius: 5px;
+}
+
+/* Main */
+.product {
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+}
+
+.truck-icon {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+.div-truck {
+  position: relative;
+}
+.product-title {
+  color: rgb(27, 27, 27);
+
+}
+.product-text {
+  position : relative;
+  padding: 20px;
+  border-top: solid 4px #ebebeb; 
+}
+.product-especifications {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0px;
+}
+.price {
+  width: 30%;
+  flex-grow: 1;
+}
+.discount {
+  width: 70%;
+  flex-grow: 1
+}
+
+/* register */
+
+.form-input {
+  border-radius: 4px;
+  padding: 8px;
+  color: lightgrey
+}
+.input-label {
+  font-size: 14px;
+  color: black;
+  text-align: left;
+}
+.input-option {
+  margin-bottom: 20px;
+}
+.span {
+  color: red;
+  margin-top : 4px
+}
+.buttom-settings {
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  border: hidden;
+  margin-bottom: 3px;
+}
+.input-option input {
+  margin-right: 10px;
+}
+
+/* Login */
+
+
+
+
+
+

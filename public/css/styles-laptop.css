@@ -1,0 +1,152 @@
+@media (min-width: 769px) {
+
+    /* Main */
+    .product-title {
+        display: none
+    }
+    .product {
+        box-shadow: none;
+        width: 25%;
+        flex-grow: 1;
+        margin: 10px;
+    }
+    .productos {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        box-shadow: none
+    }
+    .product-especefications {
+        justify-content: space-evenly;
+        padding: 10px 0px;
+    }
+    .price {
+        width: 50%;
+        font-size: 17px ;
+    }
+    .discount {
+        width: 50%;
+        font-size: 17px;
+    }
+    .product-title{
+        display: none;
+        color: rgb(27, 27, 27);
+        font-size: 15px;
+        text-align: left;
+    }
+    .product-text {
+        position: relative;
+        padding: 6px;
+    }
+    .heading {
+        text-align: left;
+        color: rgb(39, 39, 39)
+    }
+    .product img {
+        padding:10px
+    }
+    .truck-icon {
+        size: 5px;
+    }
+    /* Header */
+    .burger-menu {
+        display: none;
+    }
+
+    .nav-bar-top {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .nav-bar-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 6px;
+        font-size: 15px;
+        position: sticky; 
+        top : 0px;
+    }
+    .nav-bar-bottom ul {
+        display: flex; ;
+    }
+    .nav-bar-bottom li {
+        margin: 0px 6px
+    }
+
+    .h1 {
+        width: 40%;
+        margin: 10px;
+    }
+    .logo {
+        width: 90%;
+        margin: 0px ;
+    }
+    .search-bar {
+        width: 30%;
+        margin: 10px
+    }
+    .promocion {
+        text-align: right;
+        width: 30%;
+        margin: 10px;
+        font-size : 15px
+    }
+    
+    /* Footer */
+
+    .footer-articles {
+        display: flex;
+        flex-wrap: nowrap;
+        transition: all 1s;
+    }
+
+    /* Animaciones y transitions */
+
+    .product:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .product:hover .truck-icon {
+        transform: rotate(-90deg);
+    }
+    .product:hover .product-title {
+        display: block;
+    }
+    .product {
+        transition : all 1s
+    }
+    .truck-icon {
+        transition: all 1s;
+    }
+    .product-title {
+        transition: all 1s
+    }
+
+    .login-buttom:hover {
+        background-color : #0022AA;
+    }
+    .login-buttom {
+        transition: all 1s
+    }
+
+    .footer-images:hover {
+        color: #03264c;
+    }
+    .footer-images {
+        transition: all 1s
+    }
+
+    .nav-section-a:hover {
+        background-color: #b99e15;
+        border : hidden;
+        border-radius: 4px;
+    }
+    .nav-section-a {
+        transition: all 500ms;
+    }
+
+}
+
+
