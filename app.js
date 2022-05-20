@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname,'public')))
 
 const PORT = 8000
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log ('corriendo en el puerto ' + PORT)
 })
 
